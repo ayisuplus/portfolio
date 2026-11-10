@@ -1,0 +1,5 @@
+# 预览截图与本地产物
+.preview/
+node_modules/
+.DS_Store
+Thumbs.db

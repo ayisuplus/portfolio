@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LingerPurpleFall · 作品索引</title>
+<meta name="description" content="AI 智能体与工具链、昇腾算子工程、大模型研究、短剧与影像创作的作品索引。">
+<meta property="og:title" content="LingerPurpleFall · 作品索引">
+<meta property="og:description" content="把想法做成能跑、能验收、能复现的东西。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c0d0f'/%3E%3Cpath d='M10 9h3v11h7v3H10z' fill='%23ff6a3d'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="nav__brand" href="#top">
+    <span class="nav__mark">L</span>
+    <span class="nav__name">LingerPurpleFall<em>作品索引</em></span>
+  </a>
+  <nav class="nav__links">
+    <a href="#works">全部作品</a>
+    <a href="#closed">未公开</a>
+    <a href="#about">关于</a>
+    <a class="nav__gh" href="https://github.com/ayisuplus" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="hero__eyebrow">Portfolio index · 2026</p>
+    <h1 class="hero__title">
+      把想法做成<br>
+      <span class="hero__accent">能跑、能验收、能复现</span>的东西。
+    </h1>
+    <p class="hero__intro" id="heroIntro"></p>
+
+    <dl class="stats" id="stats">
+      <div class="stat"><dd id="statWorks">—</dd><dt>作品</dt></div>
+      <div class="stat"><dd id="statOpen">—</dd><dt>公开仓库</dt></div>
+      <div class="stat"><dd id="statCat">—</dd><dt>分类</dt></div>
+    </dl>
+
+    <a class="scroll-hint" href="#works">往下看作品 ↓</a>
+  </section>
+
+  <section class="works" id="works">
+    <div class="section-head">
+      <h2>作品</h2>
+      <p class="section-count" id="count"></p>
+    </div>
+
+    <div class="filters" id="filters" role="tablist" aria-label="分类筛选"></div>
+    <div class="grid" id="grid"></div>
+
+    <div class="closed" id="closed">
+      <div class="section-head section-head--tight">
+        <h2>未公开发布</h2>
+        <p class="section-count">作品存在，但没有推到 GitHub 的条件</p>
+      </div>
+      <ul class="closed__list" id="closedList"></ul>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-head section-head--tight">
+      <h2>关于这份索引</h2>
+    </div>
+    <div class="about__grid">
+      <p>作品按<strong>类型</strong>分类，不是按时间堆叠：能跑的工程单独成库，影像类作品只把资料与设定公开，素材与成片留在本地。所以你会看到有的仓库只有文档——那不是没做完，是体积和版权不允许进 Git。</p>
+      <p>每个条目都标了当前阶段。<strong>已定档 / 已归档 / 未验证 / 未晋升</strong>都照实写，因为一份只展示成功项的索引，读起来没有信息量。</p>
+      <p>代码在 <a href="https://github.com/ayisuplus" target="_blank" rel="noopener">github.com/ayisuplus</a>。本页是静态站点，数据在 <code>data/works.json</code>，改一行就更新一张卡片。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>© 2026 LingerPurpleFall · 本页由 <code>data/works.json</code> 生成</p>
+  <p class="foot__links">
+    <a href="https://github.com/ayisuplus" target="_blank" rel="noopener">GitHub</a>
+    <a href="#top">回到顶部</a>
+  </p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

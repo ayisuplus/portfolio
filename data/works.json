@@ -1,0 +1,489 @@
+{
+  "site": {
+    "title": "LingerPurpleFall",
+    "subtitle": "作品索引",
+    "tagline": "把想法做成能跑、能验收、能复现的东西。",
+    "intro": "AI 智能体与工具链 · 昇腾算子工程 · 大模型研究 · 短剧与影像创作。下面每一条都对应一个可打开的仓库或入口，附带它当前真实的状态——包括没做完的部分。",
+    "owner": "LingerPurpleFall",
+    "github": "https://github.com/ayisuplus",
+    "updated": "2026-11-10"
+  },
+  "categories": [
+    {
+      "id": "agents",
+      "name": "智能体与工具",
+      "short": "智能体"
+    },
+    {
+      "id": "systems",
+      "name": "系统与算子",
+      "short": "系统"
+    },
+    {
+      "id": "research",
+      "name": "研究与实验",
+      "short": "研究"
+    },
+    {
+      "id": "film",
+      "name": "影像与叙事",
+      "short": "影像"
+    },
+    {
+      "id": "automation",
+      "name": "自动化与素材",
+      "short": "自动化"
+    }
+  ],
+  "works": [
+    {
+      "id": "alpha",
+      "title": "Alpha 桌面智能体",
+      "subtitle": "本地个人 Agent 工作台",
+      "cat": "agents",
+      "year": "2026",
+      "status": "迭代中 · 0.3.0",
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "OMP 18.4.3"
+      ],
+      "summary": "拆成四层：原生 OMP 执行内核、天枢证据层、30 个行业 Skill、本机能力（Office / ComfyUI / 可见浏览器）。证据层只提醒不拦截——重复失败、改后未验证、宣称与证据不符三种信号，/tianshu 展开当前证据帧。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": "价值待评估/alpha-agent"
+    },
+    {
+      "id": "dsh-lab",
+      "title": "DSH 插件实验室",
+      "subtitle": "诊断语义证据衔接",
+      "cat": "agents",
+      "year": "2026",
+      "status": "研究记录 · 未晋升常驻",
+      "stack": [
+        "TypeScript",
+        "DeepSeek Harness"
+      ],
+      "summary": "给 DeepSeek Harness 做「诊断语义证据衔接」：类型错误自动附少量定义与签名，每批 ≤2 KiB、每轮 ≤3 批。8 场真实对照跑完，token +22.03%、未达确认门槛，所以日常入口不启用——这是结论，不是失败。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": "leo智能体/harness"
+    },
+    {
+      "id": "leo",
+      "title": "Leo 桌面 Agent（MVP）",
+      "subtitle": "基于 pi 内核的 Electron 应用",
+      "cat": "agents",
+      "year": "2026",
+      "status": "已定位调整 · 保留为研究依据",
+      "stack": [
+        "Electron",
+        "pi kernel"
+      ],
+      "summary": "执行与停止、文件 diff 与命令结果、项目与会话管理都接通了，流式输出带思考块与工具调用卡片。2026-10-29 起转为 DSH 插件研发，本目录保留为研究依据。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": "leo智能体/app"
+    },
+    {
+      "id": "amie",
+      "title": "Amie · AI 闺蜜",
+      "subtitle": "中文 AI 姐妹内测版",
+      "cat": "agents",
+      "year": "2026",
+      "status": "内测",
+      "stack": [
+        "React",
+        "Express",
+        "Prisma",
+        "PostgreSQL"
+      ],
+      "summary": "模块化单体：白名单手机号登录、分句流式输出、温柔 / 直爽 / 安静三种说话方式。云端模型同意 v4 是硬闸门——未同意时云端调用次数为零，撤回授权会拦下尚未发出的请求。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/cyber-sister"
+        }
+      ],
+      "repo": "ayisuplus/cyber-sister",
+      "private": false,
+      "local": "cyber-sister"
+    },
+    {
+      "id": "deception",
+      "title": "AI Deception Gateway",
+      "subtitle": "爬虫诱捕与成本放大",
+      "cat": "agents",
+      "year": "2026",
+      "status": "实验完成",
+      "stack": [
+        "Node.js",
+        "Canvas"
+      ],
+      "summary": "以黑洞为视觉隐喻的诱捕实验：把请求分成 allow / observe / tarpit / block 四档，给可疑爬虫发一次性签名迷宫，让它自己把抓取成本放大。不假装是 WAF 的替代品。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": null
+    },
+    {
+      "id": "cerebellum",
+      "title": "Cerebellum",
+      "subtitle": "编码智能体的自进化控制器",
+      "cat": "agents",
+      "year": "2026",
+      "status": "进行中",
+      "stack": [
+        "Rust"
+      ],
+      "summary": "给编码智能体做自进化的学习控制器与工作流闸门：什么改动值得进入下一轮，由它判，而不是由模型自己宣布通过。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": null
+    },
+    {
+      "id": "orbit",
+      "title": "ORBIT 三维简历",
+      "subtitle": "智能人机交互课程作业",
+      "cat": "agents",
+      "year": "2026",
+      "status": "已完成",
+      "stack": [
+        "JavaScript",
+        "WebGL"
+      ],
+      "summary": "把一份简历放回空间里：ORBIT 用三维交互重新组织个人信息，探索「阅读一个人」这件事能不能不只靠滚动。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": null
+    },
+    {
+      "id": "ascend",
+      "title": "昇腾算子开发环境",
+      "subtitle": "没有 NPU 也能写 Ascend C",
+      "cat": "systems",
+      "year": "2026",
+      "status": "运行中 · 可复现",
+      "stack": [
+        "Ascend C",
+        "CANN 9.0",
+        "C++",
+        "WSL2"
+      ],
+      "summary": "一台没有昇腾 NPU 的 Windows 工作站，也能写 Ascend C 算子、编译、跑核函数、看精度、用 gdb 单步进 kernel——靠 CANN 的 CPU 域孪生调试（tikicpulib）。silu 实测 3.98e-07，softmax 2.00e-09。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/ascend-c-op-devkit"
+        }
+      ],
+      "repo": "ayisuplus/ascend-c-op-devkit",
+      "private": false,
+      "local": "昇腾社区",
+      "featured": true
+    },
+    {
+      "id": "opencut",
+      "title": "OpenCut 创作工作台",
+      "subtitle": "本地剪辑与创作 fork",
+      "cat": "systems",
+      "year": "2026",
+      "status": "主路径跑通 · 待发布",
+      "stack": [
+        "Next.js",
+        "Rust",
+        "WASM",
+        "Bun"
+      ],
+      "summary": "从上游 OpenCut 长出来的工作台：分集原生存储、幕 / 镜头 / 片段分层，分镜—生成—剪辑一条线。Rust 分发层让 CLI 与 Web 改同一份磁盘工程。上游 MIT，fork 说明随附。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": "内容创作/OpenCut",
+      "cover": "assets/covers/opencut.jpg"
+    },
+    {
+      "id": "voxelgym",
+      "title": "voxelgym",
+      "subtitle": "确定性的体素物理实验机",
+      "cat": "research",
+      "year": "2026",
+      "status": "运行中",
+      "stack": [
+        "Rust",
+        "PyO3",
+        "gymnasium"
+      ],
+      "summary": "借 Minecraft 的物理语义重造一台实验机：376k steps/s 单环境、64 环境 1.24M steps/s，带全真值传感器、录制回放、物理探针任务集与因果世界模型。没有一行 Mojang 代码或素材。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/voxelgym"
+        }
+      ],
+      "repo": "ayisuplus/voxelgym",
+      "private": false,
+      "local": "价值待评估/voxelgym"
+    },
+    {
+      "id": "hdr",
+      "title": "达芬奇曝光与 HDR 颜色链",
+      "subtitle": "逐位像素对照研究",
+      "cat": "research",
+      "year": "2026",
+      "status": "已归档 · 结论可用",
+      "stack": [
+        "Python",
+        "CUDA",
+        "DaVinci Resolve"
+      ],
+      "summary": "先冻结预测、再测；每轮配一次独立对抗审查，负结果照实登记。研究的是达芬奇曝光链与 HDR 元数据到底在哪一步改了像素——不靠观感，靠数值。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/opencut-color-research"
+        }
+      ],
+      "repo": "ayisuplus/opencut-color-research",
+      "private": false,
+      "local": "价值待评估/capcut+达芬奇",
+      "featured": true
+    },
+    {
+      "id": "lab",
+      "title": "负结果实验室",
+      "subtitle": "11 条研究线的证据归档台",
+      "cat": "research",
+      "year": "2026",
+      "status": "研究记录 · 主线未验证",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "vLLM"
+      ],
+      "summary": "11 条并行研究线的归档：能复现的留下，复现不了的写清为什么。主体不是成功，是证伪记录——负结果在这里是一等公民。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": "竞赛与科研"
+    },
+    {
+      "id": "mgba",
+      "title": "M-GBA 跨尺度数字生命",
+      "subtitle": "从基因调控到宏观表型",
+      "cat": "research",
+      "year": "2026",
+      "status": "原型",
+      "stack": [
+        "Python",
+        "MIT"
+      ],
+      "summary": "用可运行模型表达生命状态的逐层生成：L0 基因/转录调控 → L1 分子与蛋白 → L2 细胞个体行为 → 更高的组织层。跨尺度是真的跨，不是一张示意图。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": null
+    },
+    {
+      "id": "deity",
+      "title": "《文明熄灭之前》",
+      "subtitle": "第一季「遗令」创作 canon",
+      "cat": "film",
+      "year": "2026",
+      "status": "设定定稿 · 分集推进",
+      "stack": [
+        "HTML",
+        "JSON canon",
+        "Python"
+      ],
+      "summary": "神明即大模型，念咒即一次调用，「暗时」其实是算力不足。24 集 110 场 378 镜、30 轮变更日志全部收在一个单文件网页里，双击就能离线读，不用服务器。",
+      "links": [
+        {
+          "label": "在线 canon",
+          "url": "https://ayisuplus.github.io/llm-deity-drama/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/llm-deity-drama"
+        }
+      ],
+      "repo": "ayisuplus/llm-deity-drama",
+      "private": false,
+      "local": "内容创作/短剧/大模型神明",
+      "cover": "assets/covers/canon.jpg",
+      "featured": true
+    },
+    {
+      "id": "rice",
+      "title": "《白米饭》",
+      "subtitle": "日语对白的中式家庭短片",
+      "cat": "film",
+      "year": "2026",
+      "status": "已定档存档",
+      "stack": [
+        "ComfyUI",
+        "H3 图生视频",
+        "DaVinci Resolve",
+        "OpenCut"
+      ],
+      "summary": "日式生活质感配水墨写意：ComfyUI 关键帧转图生视频，达芬奇 v033 定节奏、OpenCut v035 铺片，118 段覆盖全片粗剪。作者判断这一版基本作废，素材一件没删——台账留着给下一版。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/baimifan-short-film"
+        }
+      ],
+      "repo": "ayisuplus/baimifan-short-film",
+      "private": false,
+      "local": "内容创作/故事短片/白米饭",
+      "cover": "assets/covers/baimifan.png"
+    },
+    {
+      "id": "linzhixia",
+      "title": "《未来女孩林知夏》",
+      "subtitle": "云中园城的空间参考",
+      "cat": "film",
+      "year": "2026",
+      "status": "v19 收尾 · 不再扩建",
+      "stack": [
+        "Blender",
+        "Python",
+        "DaVinci Resolve"
+      ],
+      "summary": "水墨科幻校园题材，主成果不是成片而是一座真建出来的城：整座城包在一朵巨云里，七岛九院三跌水、漏窗借景。58 秒穿行航线把空间跑通，v19 确认「可以了」。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/linzhixia-cloud-garden"
+        }
+      ],
+      "repo": "ayisuplus/linzhixia-cloud-garden",
+      "private": false,
+      "local": "内容创作/故事短片/未来女孩林知夏",
+      "cover": "assets/covers/linzhixia.jpg"
+    },
+    {
+      "id": "vibe",
+      "title": "vibe 知识大赏",
+      "subtitle": "代码逐帧渲染的知识短片",
+      "cat": "film",
+      "year": "2026",
+      "status": "连载中 · 26 期",
+      "stack": [
+        "HyperFrames",
+        "GSAP",
+        "Three.js",
+        "SVG"
+      ],
+      "summary": "90–180 秒无旁白，一期一题：信息茧房、蒸馏、iPhone 拆解、RB19 为什么能赢。HTML + SVG + GSAP 单条 tween，任意跳帧画面一致——所以能反复重渲不跑偏。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/vibe-knowledge-shorts"
+        }
+      ],
+      "repo": "ayisuplus/vibe-knowledge-shorts",
+      "private": false,
+      "local": "内容创作/vibe知识大赏",
+      "cover": "assets/covers/vibe.png"
+    },
+    {
+      "id": "fan",
+      "title": "桌面风扇拆解",
+      "subtitle": "教学动画 + 离线交互页",
+      "cat": "film",
+      "year": "2026",
+      "status": "已交付",
+      "stack": [
+        "Three.js",
+        "HTML",
+        "ffmpeg"
+      ],
+      "summary": "一台 USB 小风扇拆开讲：1080p30 成片负责叙事，另一个单文件 Three.js 页面负责动手——拆解、看电机、点电路、剖切，断网也能放。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/desktop-fan-explainer"
+        }
+      ],
+      "repo": "ayisuplus/desktop-fan-explainer",
+      "private": false,
+      "local": "临时目录/desktop-fan",
+      "cover": "assets/covers/desktop-fan.jpg",
+      "featured": true
+    },
+    {
+      "id": "eagle",
+      "title": "Eagle 每日精选",
+      "subtitle": "素材自动入库流水线",
+      "cat": "automation",
+      "year": "2026",
+      "status": "每日 20:00 运行",
+      "stack": [
+        "Python",
+        "Eagle API"
+      ],
+      "summary": "每天从 Pinterest 和小红书择优 3–5 组入库：带回执、幂等、零重复导入，1797 条旧素材的名称/来源/标签/目录前后零变动校验，74 项测试。调度器只负责启动，判断靠真的看见画面。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/eagle-daily-curation"
+        }
+      ],
+      "repo": "ayisuplus/eagle-daily-curation",
+      "private": false,
+      "local": "临时目录/eagle-workflow"
+    },
+    {
+      "id": "audio",
+      "title": "ComfyUI 音频分析",
+      "subtitle": "音乐理解与语音转录",
+      "cat": "automation",
+      "year": "2026",
+      "status": "已接入本地 ComfyUI",
+      "stack": [
+        "Python",
+        "ComfyUI",
+        "MOSS-Music",
+        "Nemotron"
+      ],
+      "summary": "把两套模型接进已有的 ComfyUI：MOSS-Music 听音乐回答中文提问，Nemotron 做中英文转录。文档里有实测耗时，也有能力边界——哪些它其实做不到。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/comfyui-audio-analysis"
+        }
+      ],
+      "repo": "ayisuplus/comfyui-audio-analysis",
+      "private": false,
+      "local": "临时目录/audio-analysis"
+    }
+  ],
+  "unpublished": [
+    {
+      "title": "音乐 MV《虚拟》/ Star Crossing Night",
+      "note": "两部 4K 同人 MV：一部 ComfyUI 生成素材 + HyperFrames 合成，一部 20 万粒子 + Three.js、钟面倒走对准重音。歌曲为商业原曲，授权未确认，故不公开。"
+    },
+    {
+      "title": "《这个结局不算》",
+      "note": "王者荣耀同人水墨短片：39 镜静帧收口，VoxCPM2 音色克隆做声音预演。角色版权与三首商业 BGM 都不允许公开。"
+    },
+    {
+      "title": "《风景园林 × 人工智能》宣传片",
+      "note": "重庆文理学院客户项目，第三轮 v016 已出 4K 成片。客户未授权公开，素材与审改文档全部留在本地。"
+    },
+    {
+      "title": "案例排版流水线（文理学院）",
+      "note": "十篇教学案例从原稿到客户模板的可核验排版工序。含真实教师姓名与项目名称，公开前需逐处脱敏，暂不发布。"
+    },
+    {
+      "title": "逆向分析档案",
+      "note": "商业 APK 与安装包的结构取证与架构对比。目录内有盗版样本与多款游戏完整包，不具备公开条件；方法本身会另写一篇不含样本的短文。"
+    }
+  ]
+}
