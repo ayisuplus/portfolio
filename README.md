@@ -2,9 +2,11 @@
 
 一个静态单页：把 `/mnt/e/projects` 下的作品按类型整理成可点击的索引，每条都标注真实阶段。
 
-- 线上：https://ayisuplus.github.io/portfolio/
+- 线上：https://lingerpurplefall.com/ （Cloudflare Pages，主入口）
+- 镜像：https://ayisuplus.github.io/portfolio/ （GitHub Pages）
 - 数据：`data/works.json`（改一行就更新一张卡片，页面本身不写死内容）
-- 部署：GitHub Pages，`main` 分支根目录
+- 部署：Cloudflare Pages 项目 `lingerpurplefall`（主）+ GitHub Pages `main` 根目录（镜像）
+- 自定义域：`lingerpurplefall.com` 与 `www` 均为 CNAME → `lingerpurplefall.pages.dev`（proxied）
 
 ## 结构
 
