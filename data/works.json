@@ -12,27 +12,37 @@
     {
       "id": "agents",
       "name": "智能体与工具",
-      "short": "智能体"
+      "short": "智能体",
+      "en": "Agents & Tools",
+      "enshort": "Agents"
     },
     {
       "id": "systems",
       "name": "系统与算子",
-      "short": "系统"
+      "short": "系统",
+      "en": "Systems",
+      "enshort": "Systems"
     },
     {
       "id": "research",
       "name": "研究与实验",
-      "short": "研究"
+      "short": "研究",
+      "en": "Research",
+      "enshort": "Research"
     },
     {
       "id": "film",
       "name": "影像与叙事",
-      "short": "影像"
+      "short": "影像",
+      "en": "Film & Story",
+      "enshort": "Film"
     },
     {
       "id": "automation",
       "name": "自动化与素材",
-      "short": "自动化"
+      "short": "自动化",
+      "en": "Automation",
+      "enshort": "Automation"
     }
   ],
   "works": [
@@ -57,7 +67,7 @@
       ],
       "repo": "ayisuplus/alpha-agent",
       "private": false,
-      "local": "alpha-agent"
+      "local": "01-智能体（agents）/阿尔法桌面智能体（alpha-agent）"
     },
     {
       "id": "dsh-lab",
@@ -74,7 +84,7 @@
       "links": [],
       "repo": "ayisuplus/leo-agent",
       "private": false,
-      "local": "leo-agent/harness"
+      "local": "01-智能体（agents）/Leo桌面智能体（leo-agent）/harness"
     },
     {
       "id": "leo",
@@ -91,7 +101,7 @@
       "links": [],
       "repo": "ayisuplus/leo-agent",
       "private": false,
-      "local": "leo-agent/app"
+      "local": "01-智能体（agents）/Leo桌面智能体（leo-agent）/app"
     },
     {
       "id": "amie",
@@ -115,7 +125,7 @@
       ],
       "repo": "ayisuplus/cyber-sister",
       "private": false,
-      "local": "amie-cyber-sister"
+      "local": "01-智能体（agents）/阿米AI闺蜜（amie-cyber-sister）"
     },
     {
       "id": "deception",
@@ -153,7 +163,7 @@
       "links": [],
       "repo": "ayisuplus/cerebellum",
       "private": false,
-      "local": "cerebellum"
+      "local": "03-研究与实验（research）/持续学习引擎（cerebellum）"
     },
     {
       "id": "orbit",
@@ -199,7 +209,7 @@
       ],
       "repo": "ayisuplus/ascend-c-op-devkit",
       "private": false,
-      "local": "ascend-devkit",
+      "local": "02-系统与工程（systems）/昇腾算子开发环境（ascend-devkit）",
       "featured": true
     },
     {
@@ -224,7 +234,7 @@
       ],
       "repo": "ayisuplus/opencut-creative-workbench",
       "private": false,
-      "local": "opencut-workbench",
+      "local": "02-系统与工程（systems）/OpenCut创作工作台（opencut-workbench）",
       "cover": "assets/covers/opencut.jpg"
     },
     {
@@ -248,7 +258,7 @@
       ],
       "repo": "ayisuplus/voxelgym",
       "private": false,
-      "local": "voxelgym"
+      "local": "03-研究与实验（research）/体素强化学习环境（voxelgym）"
     },
     {
       "id": "hdr",
@@ -271,7 +281,7 @@
       ],
       "repo": "ayisuplus/opencut-color-research",
       "private": false,
-      "local": "color-grading",
+      "local": "02-系统与工程（systems）/达芬奇调色与HDR（color-grading）",
       "featured": true
     },
     {
@@ -290,7 +300,7 @@
       "links": [],
       "repo": "ayisuplus/competitions",
       "private": false,
-      "local": "competitions"
+      "local": "03-研究与实验（research）/负结果实验室（competitions）"
     },
     {
       "id": "mgba",
@@ -312,7 +322,7 @@
       ],
       "repo": "ayisuplus/M-GBA",
       "private": false,
-      "local": "mgba"
+      "local": "03-研究与实验（research）/跨尺度数字生命（mgba）"
     },
     {
       "id": "deity",
@@ -339,7 +349,7 @@
       ],
       "repo": "ayisuplus/llm-deity-drama",
       "private": false,
-      "local": "deity-drama/大模型神明",
+      "local": "04-影像与创作（film）/文明熄灭之前（deity-drama）/大模型神明",
       "cover": "assets/covers/canon.jpg",
       "featured": true
     },
@@ -365,7 +375,7 @@
       ],
       "repo": "ayisuplus/baimifan-short-film",
       "private": false,
-      "local": "short-stories/白米饭",
+      "local": "04-影像与创作（film）/故事短片集（short-stories）/白米饭",
       "cover": "assets/covers/baimifan.png"
     },
     {
@@ -389,7 +399,7 @@
       ],
       "repo": "ayisuplus/linzhixia-cloud-garden",
       "private": false,
-      "local": "short-stories/未来女孩林知夏",
+      "local": "04-影像与创作（film）/故事短片集（short-stories）/未来女孩林知夏",
       "cover": "assets/covers/linzhixia.jpg"
     },
     {
@@ -414,7 +424,7 @@
       ],
       "repo": "ayisuplus/vibe-knowledge-shorts",
       "private": false,
-      "local": "vibe-shorts",
+      "local": "04-影像与创作（film）/vibe知识短片（vibe-shorts）",
       "cover": "assets/covers/vibe.png"
     },
     {
@@ -438,7 +448,7 @@
       ],
       "repo": "ayisuplus/desktop-fan-explainer",
       "private": false,
-      "local": "fan-explainer",
+      "local": "04-影像与创作（film）/风扇拆解动画（fan-explainer）",
       "cover": "assets/covers/desktop-fan.jpg",
       "featured": true
     },
@@ -486,7 +496,7 @@
       ],
       "repo": "ayisuplus/comfyui-audio-analysis",
       "private": false,
-      "local": "comfyui-audio"
+      "local": "05-自动化与素材（automation）/ComfyUI音频分析（comfyui-audio）"
     },
     {
       "id": "legal",
@@ -509,7 +519,7 @@
       ],
       "repo": "ayisuplus/legal-ai",
       "private": false,
-      "local": "legal-ai"
+      "local": "01-智能体（agents）/能力有界法律智能（legal-ai）"
     },
     {
       "id": "occam",
@@ -532,7 +542,7 @@
       ],
       "repo": "ayisuplus/occam",
       "private": false,
-      "local": "occam"
+      "local": "03-研究与实验（research）/奥卡姆（occam）"
     },
     {
       "id": "ququ",
@@ -555,7 +565,7 @@
       ],
       "repo": "ayisuplus/ququ-arena",
       "private": false,
-      "local": "ququ-arena"
+      "local": "03-研究与实验（research）/黑洞竞技场（ququ-arena）"
     },
     {
       "id": "vgen",
@@ -578,7 +588,7 @@
       ],
       "repo": "ayisuplus/vgen-kv-cache",
       "private": false,
-      "local": "vgen-kv-cache"
+      "local": "03-研究与实验（research）/视频生成成本优化（vgen-kv-cache）"
     },
     {
       "id": "tongjia",
@@ -601,7 +611,7 @@
       ],
       "repo": "ayisuplus/tongjia-bench",
       "private": false,
-      "local": "tongjia-bench"
+      "local": "03-研究与实验（research）/通假基准（tongjia-bench）"
     },
     {
       "id": "occolor",
@@ -624,7 +634,7 @@
       ],
       "repo": "ayisuplus/oc-color-001",
       "private": false,
-      "local": "oc-color-001"
+      "local": "03-研究与实验（research）/调色剪辑器001（oc-color-001）"
     },
     {
       "id": "davinci",
@@ -647,7 +657,7 @@
       ],
       "repo": "ayisuplus/davinci-thesis",
       "private": false,
-      "local": "davinci-thesis"
+      "local": "03-研究与实验（research）/达芬奇大模型毕设（davinci-thesis）"
     }
   ],
   "unpublished": [

@@ -248,6 +248,15 @@ main { position: relative; z-index: 1; }
   font-weight: 600;
 }
 
+.chip__en {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-mute, #6b6f76);
+  opacity: 0.85;
+}
+
 .chip__n {
   font-family: var(--mono);
   font-size: 10px;

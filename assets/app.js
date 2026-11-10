@@ -54,7 +54,8 @@ function card(work, index) {
     const plate = el('span', 'card__plate', String(index + 1).padStart(2, '0'));
     cover.appendChild(plate);
   }
-  const catName = state.data.categories.find((c) => c.id === work.cat)?.short || '';
+  const c = state.data.categories.find((x) => x.id === work.cat);
+  const catName = c ? `${c.short} · ${c.enshort}` : '';
   cover.appendChild(el('span', 'card__cat', catName));
 
   const badge = el('span', 'card__badge', work.status);
@@ -89,11 +90,13 @@ function renderFilters() {
   const cats = state.data.categories;
   const total = state.data.works.length;
 
-  const make = (id, label, n) => {
+  const make = (id, label, n, en) => {
     const b = el('button', 'chip');
     b.type = 'button';
     b.setAttribute('aria-pressed', String(state.cat === id));
-    b.append(el('span', null, label), el('span', 'chip__n', String(n)));
+    b.append(el('span', null, label));
+    if (en) b.append(el('span', 'chip__en', en));
+    b.append(el('span', 'chip__n', String(n)));
     b.addEventListener('click', () => {
       state.cat = id;
       renderFilters();
@@ -102,10 +105,10 @@ function renderFilters() {
     return b;
   };
 
-  box.appendChild(make('all', '全部', total));
+  box.appendChild(make('all', '全部', total, 'All'));
   cats.forEach((c) => {
     const n = state.data.works.filter((w) => w.cat === c.id).length;
-    if (n) box.appendChild(make(c.id, c.name, n));
+    if (n) box.appendChild(make(c.id, c.name, n, c.en));
   });
 }
 
