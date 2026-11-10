@@ -49,9 +49,14 @@
         "OMP 18.4.3"
       ],
       "summary": "拆成四层：原生 OMP 执行内核、天枢证据层、30 个行业 Skill、本机能力（Office / ComfyUI / 可见浏览器）。证据层只提醒不拦截——重复失败、改后未验证、宣称与证据不符三种信号，/tianshu 展开当前证据帧。",
-      "links": [],
-      "repo": null,
-      "private": true,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/alpha-agent"
+        }
+      ],
+      "repo": "ayisuplus/alpha-agent",
+      "private": false,
       "local": "价值待评估/alpha-agent"
     },
     {
@@ -124,9 +129,14 @@
         "Canvas"
       ],
       "summary": "以黑洞为视觉隐喻的诱捕实验：把请求分成 allow / observe / tarpit / block 四档，给可疑爬虫发一次性签名迷宫，让它自己把抓取成本放大。不假装是 WAF 的替代品。",
-      "links": [],
-      "repo": null,
-      "private": true,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/ai-deception-gateway"
+        }
+      ],
+      "repo": "ayisuplus/ai-deception-gateway",
+      "private": false,
       "local": null
     },
     {
@@ -157,9 +167,14 @@
         "WebGL"
       ],
       "summary": "把一份简历放回空间里：ORBIT 用三维交互重新组织个人信息，探索「阅读一个人」这件事能不能不只靠滚动。",
-      "links": [],
-      "repo": null,
-      "private": true,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/orbit-resume-hci"
+        }
+      ],
+      "repo": "ayisuplus/orbit-resume-hci",
+      "private": false,
       "local": null
     },
     {
@@ -289,9 +304,14 @@
         "MIT"
       ],
       "summary": "用可运行模型表达生命状态的逐层生成：L0 基因/转录调控 → L1 分子与蛋白 → L2 细胞个体行为 → 更高的组织层。跨尺度是真的跨，不是一张示意图。",
-      "links": [],
-      "repo": null,
-      "private": true,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/M-GBA"
+        }
+      ],
+      "repo": "ayisuplus/M-GBA",
+      "private": false,
       "local": null
     },
     {
