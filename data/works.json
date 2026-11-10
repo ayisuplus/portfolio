@@ -57,7 +57,7 @@
       ],
       "repo": "ayisuplus/alpha-agent",
       "private": false,
-      "local": "价值待评估/alpha-agent"
+      "local": "01-agents/alpha-agent"
     },
     {
       "id": "dsh-lab",
@@ -74,7 +74,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "leo智能体/harness"
+      "local": "01-agents/leo-agent/harness"
     },
     {
       "id": "leo",
@@ -91,7 +91,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "leo智能体/app"
+      "local": "01-agents/leo-agent/app"
     },
     {
       "id": "amie",
@@ -115,7 +115,7 @@
       ],
       "repo": "ayisuplus/cyber-sister",
       "private": false,
-      "local": "cyber-sister"
+      "local": "01-agents/amie-cyber-sister"
     },
     {
       "id": "deception",
@@ -153,7 +153,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": null
+      "local": "01-agents/cerebellum"
     },
     {
       "id": "orbit",
@@ -199,7 +199,7 @@
       ],
       "repo": "ayisuplus/ascend-c-op-devkit",
       "private": false,
-      "local": "昇腾社区",
+      "local": "02-systems/ascend-devkit",
       "featured": true
     },
     {
@@ -224,7 +224,7 @@
       ],
       "repo": "ayisuplus/opencut-creative-workbench",
       "private": false,
-      "local": "内容创作/OpenCut",
+      "local": "02-systems/opencut-workbench",
       "cover": "assets/covers/opencut.jpg"
     },
     {
@@ -248,7 +248,7 @@
       ],
       "repo": "ayisuplus/voxelgym",
       "private": false,
-      "local": "价值待评估/voxelgym"
+      "local": "03-research/voxelgym"
     },
     {
       "id": "hdr",
@@ -271,7 +271,7 @@
       ],
       "repo": "ayisuplus/opencut-color-research",
       "private": false,
-      "local": "价值待评估/capcut+达芬奇",
+      "local": "02-systems/color-grading",
       "featured": true
     },
     {
@@ -290,7 +290,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "竞赛与科研"
+      "local": "06-archive/competitions"
     },
     {
       "id": "mgba",
@@ -312,7 +312,7 @@
       ],
       "repo": "ayisuplus/M-GBA",
       "private": false,
-      "local": null
+      "local": "03-research/mgba"
     },
     {
       "id": "deity",
@@ -339,7 +339,7 @@
       ],
       "repo": "ayisuplus/llm-deity-drama",
       "private": false,
-      "local": "内容创作/短剧/大模型神明",
+      "local": "04-film/deity-drama/大模型神明",
       "cover": "assets/covers/canon.jpg",
       "featured": true
     },
@@ -365,7 +365,7 @@
       ],
       "repo": "ayisuplus/baimifan-short-film",
       "private": false,
-      "local": "内容创作/故事短片/白米饭",
+      "local": "04-film/short-stories/白米饭",
       "cover": "assets/covers/baimifan.png"
     },
     {
@@ -389,7 +389,7 @@
       ],
       "repo": "ayisuplus/linzhixia-cloud-garden",
       "private": false,
-      "local": "内容创作/故事短片/未来女孩林知夏",
+      "local": "04-film/short-stories/未来女孩林知夏",
       "cover": "assets/covers/linzhixia.jpg"
     },
     {
@@ -414,7 +414,7 @@
       ],
       "repo": "ayisuplus/vibe-knowledge-shorts",
       "private": false,
-      "local": "内容创作/vibe知识大赏",
+      "local": "04-film/vibe-shorts",
       "cover": "assets/covers/vibe.png"
     },
     {
@@ -438,7 +438,7 @@
       ],
       "repo": "ayisuplus/desktop-fan-explainer",
       "private": false,
-      "local": "临时目录/desktop-fan",
+      "local": "04-film/fan-explainer",
       "cover": "assets/covers/desktop-fan.jpg",
       "featured": true
     },
@@ -462,7 +462,7 @@
       ],
       "repo": "ayisuplus/eagle-daily-curation",
       "private": false,
-      "local": "临时目录/eagle-workflow"
+      "local": "05-automation/eagle-daily"
     },
     {
       "id": "audio",
@@ -486,7 +486,158 @@
       ],
       "repo": "ayisuplus/comfyui-audio-analysis",
       "private": false,
-      "local": "临时目录/audio-analysis"
+      "local": "05-automation/comfyui-audio"
+    },
+    {
+      "id": "legal",
+      "title": "能力有界法律智能",
+      "subtitle": "Capability-Bounded Legal AI",
+      "cat": "agents",
+      "year": 2026,
+      "status": "立项 · 架构",
+      "stack": [
+        "Python",
+        "Agent",
+        "RAG"
+      ],
+      "summary": "面向法律信息处理的低裁量、可追溯、非主体化系统：无约束框架、能力边界、任务编排与无数据训练的基线方案。案件数据与客户材料不入库。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/legal-ai"
+        }
+      ],
+      "repo": "ayisuplus/legal-ai",
+      "private": false,
+      "local": "01-agents/legal-ai"
+    },
+    {
+      "id": "occam",
+      "title": "奥卡姆 Occam",
+      "subtitle": "如无必要，勿增 token",
+      "cat": "research",
+      "year": 2026,
+      "status": "方案推进中",
+      "stack": [
+        "Python",
+        "多模态",
+        "模型压缩"
+      ],
+      "summary": "目标是把 any-to-any 模型的算力需求压下来：不自己训练大模型，而是从推理链路上找可以真正省掉的部分，承接已归档的达芬奇项目。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/occam"
+        }
+      ],
+      "repo": "ayisuplus/occam",
+      "private": false,
+      "local": "03-research/occam"
+    },
+    {
+      "id": "ququ",
+      "title": "黑洞空间站 · QuQuArena3D",
+      "subtitle": "AI 斗兽场",
+      "cat": "research",
+      "year": 2026,
+      "status": "迭代中 · v019",
+      "stack": [
+        "3D",
+        "PowerShell",
+        "模拟器"
+      ],
+      "summary": "把多智能体放进一个可漫游的三维竞技场里对局：街区、高度与材料方案到 v019，验证记录跟代码一起走。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": "02-systems/ququ-arena"
+    },
+    {
+      "id": "vgen",
+      "title": "vgen · 视频生成成本优化",
+      "subtitle": "CogVideoX I2V 推理 MVP",
+      "cat": "research",
+      "year": 2026,
+      "status": "实验阶段",
+      "stack": [
+        "Python",
+        "Diffusers",
+        "KV-cache"
+      ],
+      "summary": "围绕本地 CogVideoX-5B-I2V 做的推理成本优化 MVP：KV-cache、调度与量化逐项实测，Wan I2V 官方系数做过双输入验证。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/vgen-kv-cache"
+        }
+      ],
+      "repo": "ayisuplus/vgen-kv-cache",
+      "private": false,
+      "local": "03-research/vgen-kv-cache"
+    },
+    {
+      "id": "tongjia",
+      "title": "TongJia-Bench 通假基准",
+      "subtitle": "错别字容错与拼音理解",
+      "cat": "research",
+      "year": 2026,
+      "status": "基准在建",
+      "stack": [
+        "Benchmark",
+        "Python",
+        "LLM 评测"
+      ],
+      "summary": "不只测模型「能不能容错」，还测「靠什么容错」：用古人通假的思路系统评测中文错别字容错与拼音理解的能力剖面。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/tongjia-bench"
+        }
+      ],
+      "repo": "ayisuplus/tongjia-bench",
+      "private": false,
+      "local": "03-research/tongjia-bench"
+    },
+    {
+      "id": "occolor",
+      "title": "OC-COLOR-001 调色剪辑器",
+      "subtitle": "OpenCut 个性化调色研究",
+      "cat": "systems",
+      "year": 2026,
+      "status": "已封存 · 2026-10-15",
+      "stack": [
+        "OpenCut",
+        "DaVinci",
+        "颜色科学"
+      ],
+      "summary": "为 OpenCut 新主线做的调色原理研究与实现预案：DaVinci 作功能与效果参照，交付实现来自自主代码或许可证明确的开源组件。已封存，留档可恢复。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/oc-color-001"
+        }
+      ],
+      "repo": "ayisuplus/oc-color-001",
+      "private": false,
+      "local": "02-systems/oc-color-001"
+    },
+    {
+      "id": "davinci",
+      "title": "达芬奇大模型（毕设）",
+      "subtitle": "已归档 · 2026-09-27",
+      "cat": "research",
+      "year": 2025,
+      "status": "已归档",
+      "stack": [
+        "Python",
+        "多模态",
+        "系统设计"
+      ],
+      "summary": "本科毕业设计：从 MVP 到统一架构的一版大模型系统设计。研究方向调整后归档只读，后续由奥卡姆接手。",
+      "links": [],
+      "repo": null,
+      "private": true,
+      "local": "06-archive/davinci-thesis"
     }
   ],
   "unpublished": [
