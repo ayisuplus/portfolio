@@ -57,7 +57,7 @@
       ],
       "repo": "ayisuplus/alpha-agent",
       "private": false,
-      "local": "01-agents/alpha-agent"
+      "local": "alpha-agent"
     },
     {
       "id": "dsh-lab",
@@ -74,7 +74,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "01-agents/leo-agent/harness"
+      "local": "leo-agent/harness"
     },
     {
       "id": "leo",
@@ -91,7 +91,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "01-agents/leo-agent/app"
+      "local": "leo-agent/app"
     },
     {
       "id": "amie",
@@ -115,7 +115,7 @@
       ],
       "repo": "ayisuplus/cyber-sister",
       "private": false,
-      "local": "01-agents/amie-cyber-sister"
+      "local": "amie-cyber-sister"
     },
     {
       "id": "deception",
@@ -153,7 +153,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "01-agents/cerebellum"
+      "local": "cerebellum"
     },
     {
       "id": "orbit",
@@ -199,7 +199,7 @@
       ],
       "repo": "ayisuplus/ascend-c-op-devkit",
       "private": false,
-      "local": "02-systems/ascend-devkit",
+      "local": "ascend-devkit",
       "featured": true
     },
     {
@@ -224,7 +224,7 @@
       ],
       "repo": "ayisuplus/opencut-creative-workbench",
       "private": false,
-      "local": "02-systems/opencut-workbench",
+      "local": "opencut-workbench",
       "cover": "assets/covers/opencut.jpg"
     },
     {
@@ -248,7 +248,7 @@
       ],
       "repo": "ayisuplus/voxelgym",
       "private": false,
-      "local": "03-research/voxelgym"
+      "local": "voxelgym"
     },
     {
       "id": "hdr",
@@ -271,7 +271,7 @@
       ],
       "repo": "ayisuplus/opencut-color-research",
       "private": false,
-      "local": "02-systems/color-grading",
+      "local": "color-grading",
       "featured": true
     },
     {
@@ -290,7 +290,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "06-archive/competitions"
+      "local": "competitions"
     },
     {
       "id": "mgba",
@@ -312,7 +312,7 @@
       ],
       "repo": "ayisuplus/M-GBA",
       "private": false,
-      "local": "03-research/mgba"
+      "local": "mgba"
     },
     {
       "id": "deity",
@@ -339,7 +339,7 @@
       ],
       "repo": "ayisuplus/llm-deity-drama",
       "private": false,
-      "local": "04-film/deity-drama/大模型神明",
+      "local": "deity-drama/大模型神明",
       "cover": "assets/covers/canon.jpg",
       "featured": true
     },
@@ -365,7 +365,7 @@
       ],
       "repo": "ayisuplus/baimifan-short-film",
       "private": false,
-      "local": "04-film/short-stories/白米饭",
+      "local": "short-stories/白米饭",
       "cover": "assets/covers/baimifan.png"
     },
     {
@@ -389,7 +389,7 @@
       ],
       "repo": "ayisuplus/linzhixia-cloud-garden",
       "private": false,
-      "local": "04-film/short-stories/未来女孩林知夏",
+      "local": "short-stories/未来女孩林知夏",
       "cover": "assets/covers/linzhixia.jpg"
     },
     {
@@ -414,7 +414,7 @@
       ],
       "repo": "ayisuplus/vibe-knowledge-shorts",
       "private": false,
-      "local": "04-film/vibe-shorts",
+      "local": "vibe-shorts",
       "cover": "assets/covers/vibe.png"
     },
     {
@@ -438,7 +438,7 @@
       ],
       "repo": "ayisuplus/desktop-fan-explainer",
       "private": false,
-      "local": "04-film/fan-explainer",
+      "local": "fan-explainer",
       "cover": "assets/covers/desktop-fan.jpg",
       "featured": true
     },
@@ -462,7 +462,7 @@
       ],
       "repo": "ayisuplus/eagle-daily-curation",
       "private": false,
-      "local": "05-automation/eagle-daily"
+      "local": "eagle-daily"
     },
     {
       "id": "audio",
@@ -486,7 +486,7 @@
       ],
       "repo": "ayisuplus/comfyui-audio-analysis",
       "private": false,
-      "local": "05-automation/comfyui-audio"
+      "local": "comfyui-audio"
     },
     {
       "id": "legal",
@@ -509,7 +509,7 @@
       ],
       "repo": "ayisuplus/legal-ai",
       "private": false,
-      "local": "01-agents/legal-ai"
+      "local": "legal-ai"
     },
     {
       "id": "occam",
@@ -532,7 +532,7 @@
       ],
       "repo": "ayisuplus/occam",
       "private": false,
-      "local": "03-research/occam"
+      "local": "occam"
     },
     {
       "id": "ququ",
@@ -550,7 +550,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "02-systems/ququ-arena"
+      "local": "ququ-arena"
     },
     {
       "id": "vgen",
@@ -573,7 +573,7 @@
       ],
       "repo": "ayisuplus/vgen-kv-cache",
       "private": false,
-      "local": "03-research/vgen-kv-cache"
+      "local": "vgen-kv-cache"
     },
     {
       "id": "tongjia",
@@ -596,7 +596,7 @@
       ],
       "repo": "ayisuplus/tongjia-bench",
       "private": false,
-      "local": "03-research/tongjia-bench"
+      "local": "tongjia-bench"
     },
     {
       "id": "occolor",
@@ -619,7 +619,7 @@
       ],
       "repo": "ayisuplus/oc-color-001",
       "private": false,
-      "local": "02-systems/oc-color-001"
+      "local": "oc-color-001"
     },
     {
       "id": "davinci",
@@ -637,7 +637,7 @@
       "links": [],
       "repo": null,
       "private": true,
-      "local": "06-archive/davinci-thesis"
+      "local": "davinci-thesis"
     }
   ],
   "unpublished": [
