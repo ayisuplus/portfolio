@@ -201,9 +201,14 @@
         "Bun"
       ],
       "summary": "从上游 OpenCut 长出来的工作台：分集原生存储、幕 / 镜头 / 片段分层，分镜—生成—剪辑一条线。Rust 分发层让 CLI 与 Web 改同一份磁盘工程。上游 MIT，fork 说明随附。",
-      "links": [],
-      "repo": null,
-      "private": true,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/opencut-creative-workbench"
+        }
+      ],
+      "repo": "ayisuplus/opencut-creative-workbench",
+      "private": false,
       "local": "内容创作/OpenCut",
       "cover": "assets/covers/opencut.jpg"
     },

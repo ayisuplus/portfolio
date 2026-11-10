@@ -143,6 +143,9 @@ main { position: relative; z-index: 1; }
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  /* 换行时每个片段各自铺一层渐变，否则第二行会掉进暗部 */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .hero__intro {
