@@ -72,8 +72,8 @@
       ],
       "summary": "给 DeepSeek Harness 做「诊断语义证据衔接」：类型错误自动附少量定义与签名，每批 ≤2 KiB、每轮 ≤3 批。8 场真实对照跑完，token +22.03%、未达确认门槛，所以日常入口不启用——这是结论，不是失败。",
       "links": [],
-      "repo": null,
-      "private": true,
+      "repo": "ayisuplus/leo-agent",
+      "private": false,
       "local": "leo-agent/harness"
     },
     {
@@ -89,8 +89,8 @@
       ],
       "summary": "执行与停止、文件 diff 与命令结果、项目与会话管理都接通了，流式输出带思考块与工具调用卡片。2026-10-29 起转为 DSH 插件研发，本目录保留为研究依据。",
       "links": [],
-      "repo": null,
-      "private": true,
+      "repo": "ayisuplus/leo-agent",
+      "private": false,
       "local": "leo-agent/app"
     },
     {
@@ -151,8 +151,8 @@
       ],
       "summary": "给编码智能体做自进化的学习控制器与工作流闸门：什么改动值得进入下一轮，由它判，而不是由模型自己宣布通过。",
       "links": [],
-      "repo": null,
-      "private": true,
+      "repo": "ayisuplus/cerebellum",
+      "private": false,
       "local": "cerebellum"
     },
     {
@@ -288,8 +288,8 @@
       ],
       "summary": "11 条并行研究线的归档：能复现的留下，复现不了的写清为什么。主体不是成功，是证伪记录——负结果在这里是一等公民。",
       "links": [],
-      "repo": null,
-      "private": true,
+      "repo": "ayisuplus/competitions",
+      "private": false,
       "local": "competitions"
     },
     {
@@ -547,9 +547,14 @@
         "模拟器"
       ],
       "summary": "把多智能体放进一个可漫游的三维竞技场里对局：街区、高度与材料方案到 v019，验证记录跟代码一起走。",
-      "links": [],
-      "repo": null,
-      "private": true,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/ququ-arena"
+        }
+      ],
+      "repo": "ayisuplus/ququ-arena",
+      "private": false,
       "local": "ququ-arena"
     },
     {
@@ -634,9 +639,14 @@
         "系统设计"
       ],
       "summary": "本科毕业设计：从 MVP 到统一架构的一版大模型系统设计。研究方向调整后归档只读，后续由奥卡姆接手。",
-      "links": [],
-      "repo": null,
-      "private": true,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayisuplus/davinci-thesis"
+        }
+      ],
+      "repo": "ayisuplus/davinci-thesis",
+      "private": false,
       "local": "davinci-thesis"
     }
   ],
